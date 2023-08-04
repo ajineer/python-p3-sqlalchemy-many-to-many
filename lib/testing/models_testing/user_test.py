@@ -20,8 +20,8 @@ class TestUser:
 
         assert hasattr(user, "id")
         assert hasattr(user, "name")
-        assert hasattr(user, "created_at")
-        assert hasattr(user, "updated_at")
+        assert hasattr(user, "create_at")
+        assert hasattr(user, "update_at")
         assert hasattr(user, "reviews")
         assert hasattr(user, "games")
 
